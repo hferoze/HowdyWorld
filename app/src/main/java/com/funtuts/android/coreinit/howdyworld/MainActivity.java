@@ -26,6 +26,7 @@ public class MainActivity extends Activity {
         {
             public void onClick(View v)
             {
+		System.out.println("Search Button Pressed!");
                 searchPg.loadUrl("https://www.google.com");
             }
         });
