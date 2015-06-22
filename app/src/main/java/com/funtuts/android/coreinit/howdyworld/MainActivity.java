@@ -17,7 +17,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //initialize Button
         searchBtn = (Button) findViewById(R.id.searchBtn);
+        //initialize WebView
         searchPg = (WebView) findViewById(R.id.searchWV);
         searchPg.getSettings().setJavaScriptEnabled(true);
 
