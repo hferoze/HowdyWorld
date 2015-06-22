@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         {
             public void onClick(View v)
             {
-                searchPg.loadUrl("https://www.google.com/?gws_rd=ssl");
+                searchPg.loadUrl("https://www.google.com");
             }
         });
     }
