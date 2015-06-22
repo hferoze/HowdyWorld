@@ -27,9 +27,7 @@ public class MainActivity extends Activity {
             {
                 searchPg.loadUrl("https://www.google.com/?gws_rd=ssl");
             }
-        }
-
-        );
+        });
     }
 
 
