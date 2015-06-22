@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
         searchPg = (WebView) findViewById(R.id.searchWV);
         searchPg.getSettings().setJavaScriptEnabled(true);
 
+        //What will happen when button is clicked
         searchBtn.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
